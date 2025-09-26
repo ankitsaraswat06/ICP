@@ -1,3 +1,4 @@
+package Assignment1;
 public class findFirstAndLastPositionInSortedArray{
     public static int[] searchRange(int[] nums, int target) {
         // TC-O(logn) Sc-O(1)
