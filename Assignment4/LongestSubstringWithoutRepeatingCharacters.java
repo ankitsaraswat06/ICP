@@ -1,4 +1,4 @@
-package Assingnment4;
+package Assignment4;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static int longest(String s) {
