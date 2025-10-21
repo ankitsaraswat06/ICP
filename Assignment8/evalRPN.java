@@ -1,6 +1,6 @@
 import java.util.*;
-public class evalRPN {
-    public int eval(String[] tokens) {
+class Solution {
+    public int evalRPN(String[] tokens) {
         return RPN(tokens);
     }
     public static int RPN(String[] tokens){
@@ -24,4 +24,6 @@ public class evalRPN {
             }
         }
         return s.peek();
+    }
+}
  
